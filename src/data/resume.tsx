@@ -186,7 +186,7 @@ export const DATA = {
   projects: [
     {
       title: "Vision Agent",
-      href: "#",
+      href: "https://visionagentapp.streamlit.app/",
       dates: "April 2026",
       active: true,
       description:
@@ -202,19 +202,19 @@ export const DATA = {
           href: "https://github.com/NeelContractor/VisionAgent",
           icon: <Icons.github className="size-3" />,
         },
-        // {
-        //   type: "Website",
-        //   href: "https://chatcollect.com",
-        //   icon: <Icons.globe className="size-3" />,
-        // },
+        {
+          type: "Website",
+          href: "https://visionagentapp.streamlit.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
       ],
       image: "/vision_agent.png",
       video:
-        "",
+        "/vision_agent_demo_vid.mov",
     },
     {
       title: "SmartChat Assistant",
-      href: "#",
+      href: "https://smartchatassistant.streamlit.app/",
       dates: "March 2026",
       active: true,
       description:
@@ -225,19 +225,19 @@ export const DATA = {
         "Ollama",
       ],
       links: [
-        // {
-        //   type: "Website",
-        //   href: "https://magicui.design",
-        //   icon: <Icons.globe className="size-3" />,
-        // },
+        {
+          type: "Website",
+          href: "https://smartchatassistant.streamlit.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
         {
           type: "Source",
           href: "https://github.com/NeelContractor/SmartChatAssistant",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "",
+      image: "/smar_chat_assistent.png",
+      video: "/smart_chat_assistent_demo_vid.mov",
     },
     {
       title: "Research Assistant",
@@ -268,7 +268,7 @@ export const DATA = {
     },
     {
       title: "Blog Writing Agent",
-      href: "#",
+      href: "https://blogwritingagentapp.streamlit.app/",
       dates: "April 2023 - March 2024",
       active: true,
       description:
@@ -284,6 +284,11 @@ export const DATA = {
           href: "https://github.com/NeelContractor/BlogWritingAgentApp",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Website",
+          href: "https://blogwritingagentapp.streamlit.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
       ],
       image: "/blog_writing_agent.png",
       video:
@@ -291,7 +296,7 @@ export const DATA = {
     },
     {
       title: "NexaAI SelfRAG",
-      href: "#",
+      href: "https://nexaaiselfrag.streamlit.app/",
       dates: "March 2026",
       active: true,
       description:
@@ -307,6 +312,11 @@ export const DATA = {
           href: "https://github.com/NeelContractor/NexaAI_SelfRAG_APP",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Website",
+          href: "https://nexaaiselfrag.streamlit.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
       ],
       image: "/nexai_self_rag.png",
       video:
@@ -314,7 +324,7 @@ export const DATA = {
     },
     {
       title: "YouTubeRAGQA",
-      href: "#",
+      href: "https://youtuberagqna.streamlit.app/",
       dates: "March 2026",
       active: true,
       description:
@@ -328,6 +338,11 @@ export const DATA = {
         {
           type: "Source",
           href: "https://github.com/NeelContractor/YouTubeRAGQA",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Website",
+          href: "https://youtuberagqna.streamlit.app/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
