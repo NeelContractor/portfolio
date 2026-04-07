@@ -241,7 +241,7 @@ export const DATA = {
     },
     {
       title: "Research Assistant",
-      href: "#",
+      href: "https://researchassistantagent.streamlit.app/",
       dates: "March 2026",
       active: true,
       description:
@@ -252,19 +252,19 @@ export const DATA = {
         "Ollama",
       ],
       links: [
-        // {
-        //   type: "Website",
-        //   href: "https://llm.report",
-        //   icon: <Icons.globe className="size-3" />,
-        // },
+        {
+          type: "Website",
+          href: "https://researchassistantagent.streamlit.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
         {
           type: "Source",
           href: "https://github.com/NeelContractor/ResearchAssistantAgent",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "",
+      image: "/research_assistent_agent.png",
+      video: "/researchagentdemovideo.mov",
     },
     {
       title: "Blog Writing Agent",
