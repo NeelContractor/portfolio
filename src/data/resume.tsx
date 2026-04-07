@@ -292,7 +292,7 @@ export const DATA = {
       ],
       image: "/blog_writing_agent.png",
       video:
-        "",
+        "/blog_writing_agent.mov",
     },
     {
       title: "NexaAI SelfRAG",
@@ -320,7 +320,7 @@ export const DATA = {
       ],
       image: "/nexai_self_rag.png",
       video:
-        "",
+        "/nexa_ai_assistent.mov",
     },
     {
       title: "YouTubeRAGQA",
@@ -346,7 +346,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/youtube_rag_qa.png",
       video:
         "",
     },
